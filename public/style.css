@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;600&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.pageTitle{
+    margin: 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    padding: 3px;
+}
+
+.bottomBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#challenge {
+    
+    border-bottom:5px solid rgb(111, 255, 177);
+}
+
+
+#compass {
+    width: 40px;
+    height: auto;
+}
+
+.challenge {
+    background-color: rgb(111, 255, 177);
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.challengeDiv {
+    margin: 10px;
+}
+
+
+.joinCreateChallenge {
+    font-size: 1em;
+    text-align: center;
+}
+
+
+.clickable {
+    color: blue;
+    text-decoration: underline;
+}
+
+.joinDiv {
+    display: none;
+    position: fixed;
+    left: 50%;
+    z-index: 10;
+
+    top: 40%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
+
+
+#darkBackground {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.createDiv {
+    display: none;
+    position: fixed;
+    left: 50%;
+    z-index: 10;
+
+    top: 40%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+
+
+}
+
+
+.bottomBar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    padding-top: 5px;
+}
+
+#joinTitle {
+    margin-bottom: 0.8em;
+}
+
+#enterCodeInput {
+    height: 3em;
+    width: 240px;
+}
+
+.challengeInput {
+    height: 3em;
+    width: 240px;
+    margin-top: 0.2em;
+
+}
+
+#joinBtn {
+    margin-top: 1em;
+    text-align: end;
+    color: blue;
+    text-decoration: underline;
+}
+
+#createBtn {
+
+    margin-top: 1em;
+    text-align: end;
+    color: blue;
+    text-decoration: underline;
+}
+
+#dailyTitle {
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+
+#timeDom {
+    margin-top: 0.5em;
+    margin-right: 0.2em;
+}
+
+#dailyDescription {
+    font-weight: 400;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    text-align: center;
+}
+
+#descriptionBtn {
+    text-align: end;
+    font-size: 2em;
+    margin-right: 0.4em;
+}
+
+.colorSelect{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.3em;
+}
+
+.picture {
+    display: none;
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+.date{
+    text-align: center;
+}
+.color {
+    height: 40px;
+    width: 40px;
+}
+
+#red {
+    background-color: #FF0000;
+}
+
+#green {
+    background-color: #00FF38;
+}
+
+#orange {
+    background-color: #FFA800;
+}
+
+#blue {
+    background-color: #00A3FF;
+}
+

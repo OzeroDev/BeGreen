@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeGreen</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body id="bodyDom">
+
+
+    <div class="content">
+        <div class="header">
+            <h1 class="pageTitle">Challenges</h1>
+        </div>
+        <div class="challenges">
+            <div class="challenge" >
+                <div class="challengeDiv" id="dailyChallenge">
+                    <div class="top">
+                        <h3 class="title" id="dailyTitle">Daily Challenge:</h3>
+                        <h5 class="timeLeft" id="timeDom">3 hours left</h4>
+                    </div>
+                    <h4 class="challengeDescription" id="dailyDescription">Unplug all unused appliances at home.</h4>
+                    <h3 class="picture clickable" id="picture">Take A Picture</h3>
+                    <h1 id="descriptionBtn">→</h1>
+                </div>
+            </div>
+        </div>
+        <h2 class="joinCreateChallenge"><span id="join" class="join clickable">Join</span> or <span id="create" class="create clickable">Create</span> a Challenge</h2>
+
+        
+
+        <div class="bottomBar">
+            <a href="" class="challengePage">
+                <img id="challenge" src="content/challenge.png" alt="">
+            </a>
+            <a href="" class="discoverPage">
+                <img id="compass" src="content/compass.png" alt="">
+            </a>
+            <a href="" class="socialPage">
+                <img id="social" src="content/social.png" alt="">
+            </a>
+            <a href="" class="profilePage">
+                <img id="profile" src="content/profile.png" alt="">
+            </a>
+        </div>
+        <div id="darkBackground"></div>
+        <div class="joinDiv" id="joinDiv">
+            <h2 id="joinTitle">Enter Code</h2>
+            <input type="text" name="Code" id="enterCodeInput">
+            <h3 id="joinBtn">Join</h3>
+        </div>
+
+        <div class="createDiv" id="createDiv">
+            <h2 id="createChallenge">Challenge:</h2>
+            <input type="text" name="Code" class="challengeInput">
+            <h2 id="createDescription">Description:</h2>
+            <input type="text" name="Code" class="challengeInput">
+            <h2 id="createDescription">Color:</h2>
+            <div class="colorSelect">
+                <div id="red" class="color"></div>
+                <div id="blue" class="color"></div>
+                <div id="orange" class="color"></div>
+                <div id="green" class="color"></div>
+            </div>
+            <h2 id="createDescription">Time:</h2>
+            <h3 id="createDescription" class="date">Nov 13, 2022</h3>
+            <h3 id="createBtn">Create</h3>
+        </div>
+    </div>
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
